@@ -9,10 +9,10 @@
 
 #define soilMoisture A0 //pin sensor LDR
 
-const char *ssid = "Kontrakan TADIKAMESRA";    //silakan disesuaikan sendiri
-const char *password = "sembarang"; //silakan disesuaikan sendiri
+const char *ssid = "NASIKIN01";    //silakan disesuaikan sendiri
+const char *password = "nasikin1963"; //silakan disesuaikan sendiri
 
-const char *mqtt_server = "ec2-54-157-36-1.compute-1.amazonaws.com";
+const char *mqtt_server = "ec2-34-228-238-158.compute-1.amazonaws.com";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
